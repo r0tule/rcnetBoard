@@ -1,4 +1,4 @@
-update=26/07/2012 21:25:30
+update=27/07/2012 21:59:13
 version=1
 last_client=eeschema
 [cvpcb]
@@ -142,3 +142,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=lm1117
+LibName32=lib/MEMS
