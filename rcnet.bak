@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 28/07/2012 22:44:00
+EESchema Schematic File Version 2  date 29/07/2012 00:22:34
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,6 +46,27 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 5000 3800
+NoConn ~ 5500 3800
+NoConn ~ 5400 3800
+NoConn ~ 6100 6400
+NoConn ~ 6000 6400
+NoConn ~ 5500 6400
+NoConn ~ 4500 3800
+NoConn ~ 4400 3800
+NoConn ~ 4300 3800
+NoConn ~ 4600 6400
+NoConn ~ 4500 6400
+NoConn ~ 4400 6400
+NoConn ~ 4300 6400
+NoConn ~ 4200 6400
+NoConn ~ 4100 6400
+Wire Wire Line
+	5900 3550 5900 3800
+Wire Wire Line
+	4100 3550 4100 3800
+Wire Wire Line
+	3500 3550 3500 3800
 Wire Wire Line
 	10350 1200 10350 1300
 Wire Wire Line
@@ -324,6 +345,24 @@ Wire Wire Line
 	10050 1200 10050 1300
 Wire Wire Line
 	10250 1200 10250 1300
+Wire Wire Line
+	2800 3800 2800 3550
+Wire Wire Line
+	5700 3550 5700 3800
+Wire Wire Line
+	3600 3800 3600 3550
+Text GLabel 5900 3550 1    40   Input ~ 0
+SENSOR
+Text GLabel 3600 3550 1    40   Input ~ 0
+STABLE
+Text GLabel 4100 3550 1    40   Input ~ 0
+PPM_INT
+Text GLabel 5700 3550 1    40   Input ~ 0
+VBAT
+Text GLabel 3500 3550 1    40   Input ~ 0
+BUZZER
+Text GLabel 2800 3550 1    40   Input ~ 0
+FLED
 $Comp
 L GND #PWR?
 U 1 1 50144EDC
